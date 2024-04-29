@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serial Platforması</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .show-card {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">Serial Platforması</h1>
+
+    <!-- Axtarış Formu -->
+    <form id="search-form">
+      <div class="form-group">
+        <input type="text" class="form-control" id="search-input" placeholder="Axtar">
+      </div>
+      <button type="submit" class="btn btn-primary">Axtar</button>
+    </form>
+
+    <!-- Sıralama Düyməsi -->
+    <div class="btn-group mt-3" role="group" aria-label="Sorting">
+      <button type="button" class="btn btn-secondary" id="sort-btn">Artan</button>
+    </div>
+
+    <!-- Serial Listesi -->
+    <div id="shows-list" class="row mt-3"></div>
+  </div>
+
+  <!-- Bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- main.js -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

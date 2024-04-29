@@ -1,0 +1,72 @@
+body {
+    background-color: #f0f0f0; /* Gri tonu */
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+}
+
+/* Axtarış Formu */
+#search-form {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.btn-primary {
+    border-radius: 20px;
+}
+
+/* Sıralama Düyməsi */
+#sort-btn {
+    border-radius: 20px;
+}
+
+/* Serial Kartları */
+.show-card {
+    cursor: pointer;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    color: #343a40;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #6c757d;
+}
